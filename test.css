@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.awesome {
+    font-family: Raleway, sans-serif;
+    width: 1170px;
+    margin: auto;
+}
+
+.awesome__title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.awesome__title-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome__line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.awesome__subtitle {
+    color:  #86878B;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.awesome__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome__block {
+    width: 370px;
+    text-align: center;
+}
+
+.awesome__item-wrapper {
+    height: 92px;
+    width: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.awesome__block-title {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 48px;
+}
+
+.tabs {
+    width: 1170px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tabs__group {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    width: 184px;
+    height: 40px;
+}
+
+.tabs__group-wrapper {
+    display: flex;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: left;
+}
+
+.tabs__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.tabs__content {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tabs__content-wrapper {
+    width: 570px;
+    height: 210px;
+}
+
+.tabs__button {
+    background: #EC7979;
+    width: 270px;
+    height: 58px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.tabs__picture {
+    width: 470px;
+    height: 500px;
+}
