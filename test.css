@@ -91,6 +91,8 @@
     width: 184px;
     height: 40px;
     border-radius: 5px 5px 0 0;
+    position: relative;
+    bottom: -1px;
 }
 
 .tabs__content {
@@ -132,3 +134,19 @@
 .tabs__content-picture {
    margin-left: auto;
 }
+
+/*.group {*/
+/*    border: 1px solid #EC7979;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    height: 300px;*/
+/*    width: 300px;*/
+/*}*/
+
+/*.group__item {*/
+/*    width: 45px;*/
+/*    height: 45px;*/
+/*    border: 2px solid blueviolet;*/
+
+/*}*/
