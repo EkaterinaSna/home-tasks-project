@@ -314,3 +314,133 @@
     display: flex;
     align-items: flex-start;
 }
+
+.stylish {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background: url("./icons/image.jpg");
+    width: 1510px;
+    height: 442px;
+    color: #FFFFFF;
+}
+
+.stylish__content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.stylish__title-wrapper {
+    margin: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stylish__title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stylish__subtitle {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 18px;
+}
+
+.stylish__line {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.stylish__button {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: none;
+    color: #FFFFFF;
+    width: 370px;
+    height: 58px;
+    margin: auto;
+}
+
+.red {
+    width: 100%;
+}
+
+.red__navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.red__logo {
+    color: red;
+}
+
+.red__nav {
+    border: 1px solid red;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.red__section-main {
+    border: 1px solid red;
+    width: 70%;
+    height: 400px;
+}
+
+.red__section-aside {
+    border: 1px solid red;
+    width: 25%;
+    height: 400px;
+}
+
+.red__section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.red__column {
+    border: 1px solid red;
+    width: 25%;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.red__column-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 979px) {
+    .red__section-main {
+        border: 1px solid red;
+        width: 100%;
+        height: 400px;
+    }
+
+    .red__section-aside {
+        border: 1px solid red;
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+    .red__section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+}
