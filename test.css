@@ -316,7 +316,6 @@
 }
 
 .stylish {
-    margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     background: url("./icons/image.jpg");
     width: 1510px;
@@ -370,77 +369,94 @@
     margin: auto;
 }
 
-.red {
-    width: 100%;
+.contact {
+    width: 1170px;
+    height: 622px;
+    margin: 0 auto;
 }
 
-.red__navigation {
+.contact__content-wrapper {
     display: flex;
-    flex-wrap: nowrap;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.red__logo {
-    color: red;
-}
-
-.red__nav {
-    border: 1px solid red;
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-.red__section-main {
-    border: 1px solid red;
-    width: 70%;
-    height: 400px;
-}
-
-.red__section-aside {
-    border: 1px solid red;
-    width: 25%;
-    height: 400px;
-}
-
-.red__section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
-}
-
-.red__column {
-    border: 1px solid red;
-    width: 25%;
+.contact__title-wrapper {
+    margin: 0;
     height: 150px;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.red__column-wrapper {
+.contact__title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+.contact__line {
+    width: 170px;
+    border:1px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contact__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.contact__button {
+    width: 370px;
+    height: 58px;
+    border: none;
+    background-color:  #EC7979;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.contact__message {
+    height: 192px;
+    width: 569px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.contact__forms {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 979px) {
-    .red__section-main {
-        border: 1px solid red;
-        width: 100%;
-        height: 400px;
-    }
+.contact__form {
+    width: 571px;
+    height: 85px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BDBDBD;
+}
 
-    .red__section-aside {
-        border: 1px solid red;
-        width: 100%;
-        height: 400px;
-    }
+.contact__form:first-child {
+    height: 16px;
+}
 
+.contact__form::placeholder {
 
-
-    .red__section {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-bottom: 5px;
-    }
 }
