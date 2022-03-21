@@ -458,3 +458,35 @@
 .contact__form:first-child {
     height: 16px;
 }
+
+.footer {
+    width: 1510px;
+    height: 164px;
+    background-color: #000000;
+}
+
+.footer__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer__copyright {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 0;
+}
+
+.footer__icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
