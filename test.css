@@ -373,6 +373,7 @@
     width: 1170px;
     height: 622px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .contact__content-wrapper {
@@ -456,8 +457,4 @@
 
 .contact__form:first-child {
     height: 16px;
-}
-
-.contact__form::placeholder {
-
 }
