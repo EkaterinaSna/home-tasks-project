@@ -1,5 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
+.header {
+    width: 100%;
+    background-color: #000000;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__link {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.header__links-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.banner {
+    background: url("icons/imageBg.png");
+    height: 1026px;
+}
+
+.banner__content-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 45%;
+}
+
+.banner__content-line {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+}
+
+.banner__content-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 20%;
+}
+
+.banner__content-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: none;
+    border: 2px solid #FFFFFF;
+    width: 270px;
+    height: 58px;
+}
+
+.banner__content {
+    display: flex;
+}
+
+.banner__content-form {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.title__word-pink {
+    color: #EC7979;
+}
+
+.banner__form-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+}
+
 .awesome {
     font-family: Raleway, sans-serif;
     width: 1170px;
@@ -160,8 +250,8 @@
 .price__line {
     width: 170px;
     border: 1px solid #EC7979;
-    margin-bottom: 40px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .price__subtitle {
@@ -353,7 +443,8 @@
     width: 170px;
     border: 1px solid #FFFFFF;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 22px;
+
 }
 
 .stylish__button {
@@ -401,8 +492,8 @@
 .contact__line {
     width: 170px;
     border:1px solid #EC7979;
-    margin: auto;
-    margin-bottom: 40px;
+    margin: 0 auto;
+    margin-bottom: 22px;
 }
 
 .contact__subtitle {
@@ -457,4 +548,36 @@
 
 .contact__form:first-child {
     height: 16px;
+}
+
+.footer {
+    width: 1510px;
+    height: 164px;
+    background-color: #000000;
+}
+
+.footer__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer__copyright {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 0;
+}
+
+.footer__icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    margin-top: 2%;
 }
