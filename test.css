@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
+body {
+    margin: 0;
+}
+
 .header {
     width: 100%;
     background-color: #000000;
@@ -330,7 +334,7 @@
 
 .price {
     font-family: 'Raleway', sans-serif;
-    width: 1508px;
+    width: 100%;
     height: 900px;
     margin: 0 auto;
     background-color: #F5F5F5;
@@ -510,7 +514,7 @@
 .stylish {
     font-family: 'Raleway', sans-serif;
     background: url("./icons/image.jpg");
-    width: 1510px;
+    width: 100%;
     height: 442px;
     color: #FFFFFF;
 }
@@ -655,7 +659,7 @@
 }
 
 .footer {
-    width: 1510px;
+    width: 100%;
     height: 164px;
     background-color: #000000;
 }
